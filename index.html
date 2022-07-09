@@ -7,65 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Envato market</title>
 
-
-    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/respon.css">
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="//static.hsappstatic.net/StyleGuideUI/static-3.267/img/sprocket/favicon-16x16.png">
 </head>
 
 
 <body>
-    <div class="app">
-        <!-- Preview Fixed -->
-        <div class="preview">
-            <div class="preview__logo">
-                <a href="" class="preview__logo-link"></a>
-            </div>
-
-            <div class="preview-buy">
-                <a href="" class="preview-buy__btn">Buy now</a>
-            </div>
+    <!-- Preview Fixed -->
+    <div class="preview d-flex-between background-basic">
+        <div class="preview__logo d-flex p-0-20">
+            <a href="" class="preview__logo-link p-0-20"></a>
         </div>
 
+        <div class="preview-buy  p-0-20">
+            <a href="" class="preview-buy__btn d-flex text-white font-14 p-5-20 border-ra-4">Buy now</a>
+        </div>
+    </div>
 
+
+    <div id="app"  class="d-flex-center">
         <!-- Header -->
-        <header class="header">
-            <div class="header__logo">
+        <header id="header" class="d-flex-between block-setup p-30-16">
+            <div class="header__logo d-flex m-20-0 width-20">
                 <a href="#" class="header__logo-link">
-                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/07/avada-logo-svg.svg" alt=""
-                        class="header__logo-img">
+                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/07/avada-logo-svg.svg" alt="" class="header__logo-img">
                 </a>
             </div>
 
-            <nav class="header__navbar">
-                <ul class="navbar__list">
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">
-                            Features
-                            <i class="navbar__icon fa-solid fa-angle-down"></i>
-                        </a>
-
-
+            <nav class="header__navbar d-flex-center d-flex-1 width-60">
+                <ul class="navbar__list d-flex-between-center m-20-0 font-18">
+                    <li class="navbar__item m-right-5">
+                        <a href="" class="navbar__link p-8-18">Features<i class="navbar__icon fa-solid fa-angle-down font-12 p-left-8"></i></a>
                     </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">Elements</a>
+                    <li class="navbar__item m-right-5">
+                        <a href="" class="navbar__link p-8-18">Elements</a>
                     </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">Prebuilt Wedsites</a>
+                    <li class="navbar__item m-right-5">
+                        <a href="" class="navbar__link p-8-18">Prebuilt Wedsites</a>
                     </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">Reviews</a>
+                    <li class="navbar__item m-right-5">
+                        <a href="" class="navbar__link p-8-18">Reviews</a>
                     </li>
                 </ul>
             </nav>
 
-            <div class="header__btn-box">
-                <a href="" class="header__btn btn">
-                    <i class="header__btn-icon fa-solid fa-diamond"></i>
+            <div class="header__btn-box d-flex-right-center width-20">
+                <a href="" class="header__btn btn font-18">
+                    <i class="header__btn-icon fa-solid fa-diamond font-14 m-right-10 f-weight-700"></i>
                     What's New
                 </a>
             </div>
@@ -73,117 +64,115 @@
         </header>
 
 
-        <div class="main">
-            <!-- Start Section -->
-            <section class="start-section">
-                <div class="start-section__content">
-                    <h1 class="start-section__title">
+        <div id="main" class="">
+            
+            <!-- Intro Section -->
+            <section class="intro-section d-flex-center block-setup p-0-16 m-bot-95">
+                <div class="intro-section__content d-flex-col width-40">
+                    <h1 class="intro-section__title font-60 m-bot-20">
                         The Ultimate
                         <span>WordPress</span>
                         Website Builder
                     </h1>
 
-                    <p class="start-section__text">
+                    <p class="intro-section__text font-19 line-38 m-bot-38 m-right-30percent">
                         Trusted by beginners, marketers & professionals;
-                        Built with usability and performance in mind.
+                        Built width usability and performance in mind.
                     </p>
 
-                    <a href="" class="start-section__btn btn btn--primary">
-                        Start Building
-                        <i class="btn-icon fa-solid fa-arrow-right"></i>
-                    </a>
+                    <div class="intro-section__btn-box m-bot-50">
+                        <a href="" class="intro-section__btn btn btn--basic font-19">
+                            intro Building
+                            <i class="btn-icon fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
 
-                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/small-separator.png" alt=""
-                        class="separate__img">
+                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/small-separator.png" alt="" class="separate__img m-bot-23">
 
-                    <div class="star-section__feedback">
-                        <div class="star-section__user">
-                            <h2 class="star-section__user-heading">800k+</h2>
-                            <p>People Trust Avada</p>
+                    <div class="intro-section__feedback d-flex">
+                        <div class="intro-section__user d-flex-col width-40">
+                            <h2 class="font-35 f-weight-600">800k+</h2>
+                            <p class="font-16">People Trust Avada</p>
                         </div>
 
-                        <div class="star-section__review">
-                            <h2 class="star-section__review-heading">25k+</h2>
-                            <p>Average 5-Star Reviews</p>
+                        <div class="intro-section__review d-flex-col width-40">
+                            <h2 class="font-35 f-weight-600">25k+</h2>
+                            <p class="font-16">Average 5-Star Reviews</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="start-section__picture">
-                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/07/home-hero-20@2x.jpg" alt=""
-                        class="start-section__img">
+                <div class="intro-section__picture width-60">
+                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/07/home-hero-20@2x.jpg" alt="" class="width-100">
                 </div>
             </section>
 
 
             <!-- For Section -->
-            <section class="for-section">
-                <div class="row">
-                    <div class="col col-lg-4">
-                        <a class="for-section__link for-section--yellow">
-                            <div class="for-section__content">
-                                <p class="for-section__content-heading">For Beginners</p>
-                                <h2 class="for-section__content-title">Lauch Your First Website</h2>
+            <section class="for-section block-setup d-flex-between width-100">
+                <div class="width-33_33">
+                    <a class="for-section__link for-section--yellow d-flex-col-center">
+                        <div class="for-section__content text-center p-50">
+                            <p class="for-section__content-heading">For Beginners</p>
+                            <h2 class="for-section__content-title">Lauch Your First Website</h2>
 
-                                <div class="for-section__content-picture">
-                                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-beginners@2x-200x231.jpg"
-                                        alt="" class="for-section__content-img">
-                                </div>
-
-                                <div class="for-section__content-buttons">
-                                    <div class="for-section__content-btn btn--yellow">Visual Builder</div>
-                                    <div class="for-section__content-btn btn--yellow">Documentation</div>
-                                    <div class="for-section__content-btn btn--yellow">Support</div>
-                                    <div class="for-section__content-btn btn--yellow">Prebuilt Wedsites</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col col-lg-4">
-                        <a class="for-section__link for-section--green">
-                            <div class="for-section__content">
-                                <p class="for-section__content-heading">For Marketers</p>
-                                <h2 class="for-section__content-title">Generate Leads And Conversions</h2>
-
-                                <div class="for-section__content-picture">
-                                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-marketers@2x-200x200.jpg"
-                                        alt="" class="for-section__content-img">
-                                </div>
-
-                                <div class="for-section__content-buttons">
-                                    <div class="for-section__content-btn btn--green">Design</div>
-                                    <div class="for-section__content-btn btn--green">SEO</div>
-                                    <div class="for-section__content-btn btn--green">Shop Builder</div>
-                                    <div class="for-section__content-btn btn--green">Form Builder</div>
-                                </div>
+                            <div class="for-section__content-picture d-flex-1">
+                                <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-beginners@2x-200x231.jpg" alt="" class="for-section__content-img">
                             </div>
 
-                        </a>
-                    </div>
-
-                    <div class="col col-lg-4">
-                        <a class="for-section__link for-section--blue">
-                            <div class="for-section__content">
-                                <p class="for-section__content-heading">For Professionals</p>
-                                <h2 class="for-section__content-title">Take Your Projects To The Next Level</h2>
-
-                                <div class="for-section__content-picture">
-                                    <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-pro-2@2x-400x382.jpg"
-                                        alt="" class="for-section__content-img">
-                                </div>
-
-                                <div class="for-section__content-buttons">
-                                    <div class="for-section__content-btn btn--blue">All-In-One</div>
-                                    <div class="for-section__content-btn btn--blue">Patcher</div>
-                                    <div class="for-section__content-btn btn--blue">WCAG</div>
-                                    <div class="for-section__content-btn btn--blue">Dynamic Data</div>
-                                </div>
+                            <div class="for-section__content-btns d-flex">
+                                <div class="for-section__content-btn btn--yellow">Visual Builder</div>
+                                <div class="for-section__content-btn btn--yellow">Documentation</div>
+                                <div class="for-section__content-btn btn--yellow">Support</div>
+                                <div class="for-section__content-btn btn--yellow">Prebuilt Wedsites</div>
                             </div>
-
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
+
+                <div class="width-33_33">
+                    <a class="for-section__link for-section--green d-flex-col-center">
+                        <div class="for-section__content text-center">
+                            <p class="for-section__content-heading">For Marketers</p>
+                            <h2 class="for-section__content-title">Generate Leads And Conversions</h2>
+
+                            <div class="for-section__content-picture">
+                                <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-marketers@2x-200x200.jpg"
+                                    alt="" class="for-section__content-img">
+                            </div>
+
+                            <div class="for-section__content-btns d-flex">
+                                <div class="for-section__content-btn btn--green">Design</div>
+                                <div class="for-section__content-btn btn--green">SEO</div>
+                                <div class="for-section__content-btn btn--green">Shop Builder</div>
+                                <div class="for-section__content-btn btn--green">Form Builder</div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+                <div class="width-33_33">
+                    <a class="for-section__link for-section--blue">
+                        <div class="for-section__content">
+                            <p class="for-section__content-heading">For Professionals</p>
+                            <h2 class="for-section__content-title">Take Your Projects To The Next Level</h2>
+
+                            <div class="for-section__content-picture">
+                                <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-pro-2@2x-400x382.jpg"
+                                    alt="" class="for-section__content-img">
+                            </div>
+
+                            <div class="for-section__content-buttons">
+                                <div class="for-section__content-btn btn--blue">All-In-One</div>
+                                <div class="for-section__content-btn btn--blue">Patcher</div>
+                                <div class="for-section__content-btn btn--blue">WCAG</div>
+                                <div class="for-section__content-btn btn--blue">Dynamic Data</div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>   
             </section>
 
 
@@ -266,7 +255,7 @@
 
                             <h3 class="discover-section__title">87 Prebuilt Websites</h3>
                             <p class="discover-section__text">Prebuilt websites are designed to save you time.
-                                Import with a few clicks & customize it to suit your requirements.</p>
+                                Import width a few clicks & customize it to suit your requirements.</p>
                         </div>
                     </div>
 
@@ -278,7 +267,7 @@
                             </div>
 
                             <h3 class="discover-section__title">120+ Design Elements</h3>
-                            <p class="discover-section__text">Packed with options, they are highly flexible for any
+                            <p class="discover-section__text">Packed width options, they are highly flexible for any
                                 design & for any purpose.
                                 The only limit is your imagination.</p>
                         </div>
@@ -306,7 +295,7 @@
 
                             <h3 class="discover-section__title">Mobile Friendly</h3>
                             <p class="discover-section__text">Avada is 100% fluid & responsive across all device types,
-                                from mobile to desktop & tablets, with no compromise.</p>
+                                from mobile to desktop & tablets, width no compromise.</p>
                         </div>
                     </div>
 
@@ -331,7 +320,7 @@
                             </div>
 
                             <h3 class="discover-section__title">Online Store Builder</h3>
-                            <p class="discover-section__text">Avada is integrated with WooCommerce,
+                            <p class="discover-section__text">Avada is integrated width WooCommerce,
                                 allowing you to build successful online stores to sell anything online.</p>
                         </div>
                     </div>
@@ -367,7 +356,7 @@
                                     alt="" class="background-section__img">
                             </div>
                             <h4 class="background-section__title">World-Class Support</h4>
-                            <p class="background-section__text">We build long-term professional relationships with our
+                            <p class="background-section__text">We build long-term professional relationships width our
                                 customers that you can rely on & trust.</p>
                         </div>
                     </div>
@@ -381,7 +370,7 @@
 
                             <h4 class="background-section__title">Documentation & Tutorials</h4>
                             <p class="background-section__text">Over 550 help files & 200 tutorial videos will make
-                                building websites with Avada even easier.</p>
+                                building websites width Avada even easier.</p>
                         </div>
                     </div>
 
@@ -405,7 +394,7 @@
                             </div>
                             <h4 class="background-section__title">Free Lifetime Updates</h4>
                             <p class="background-section__text">Your website will receive free & regular updates,
-                                compatible with industry standards & trends, for life.</p>
+                                compatible width industry standards & trends, for life.</p>
                         </div>
                     </div>
                 </div>
@@ -450,13 +439,13 @@
 
                     <li class="question-section__item">
                         <div class="question-section__heading">
-                            <h4 class="question-section__question">What Is Included With My Purchase Of Avada?</h4>
+                            <h4 class="question-section__question">What Is Included Width My Purchase Of Avada?</h4>
                             <i class="question-section__icon fa-solid fa-plus"></i>
                         </div>
 
 
                         <div class="hide-content">
-                            <p class="hide-content__text">With your purchase of Avada, you will receive:</p>
+                            <p class="hide-content__text">Width your purchase of Avada, you will receive:</p>
 
                             <ul class="hide-content__list">
                                 <li class="hide-content__item">
@@ -469,7 +458,7 @@
                                 </li>
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
-                                    <span>87 prebuilt websites, with new sites released regularly.</span>
+                                    <span>87 prebuilt websites, width new sites released regularly.</span>
                                 </li>
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
@@ -482,16 +471,16 @@
                                 </li>
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
-                                    <span>200+ video tutorials, with new videos, added regularly.</span>
+                                    <span>200+ video tutorials, width new videos, added regularly.</span>
                                 </li>
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
-                                    <span>Free, consistent, and stable updates to ensure compatibility with industry
+                                    <span>Free, consistent, and stable updates to ensure compatibility width industry
                                         standards & trends.</span>
                                 </li>
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
-                                    <span>Avada works with popular 3rd party plugins like Yoast SEO, WooCommerce, The
+                                    <span>Avada works width popular 3rd party plugins like Yoast SEO, WooCommerce, The
                                         Events Calendar, HubSpot, WPML, and more.</span>
                                 </li>
                             </ul>
@@ -508,7 +497,7 @@
                         <div class="hide-content">
                             <p class="hide-content__text">
                                 No, there are no recurring license fees to use Avada.
-                                It is a one-time purchase that provides you with lifetime updates at no extra cost and
+                                It is a one-time purchase that provides you width lifetime updates at no extra cost and
                                 is valid for life.
                                 You can choose to purchase a support extension after the initial 6 months of support has
                                 expired. However, this is entirely optional.
@@ -524,7 +513,7 @@
 
                         <div class="hide-content">
                             <p class="hide-content__text">
-                                Hands-on support with our professional team of support experts is accessible 24/7,
+                                Hands-on support width our professional team of support experts is accessible 24/7,
                                 and that includes an extensive library of detailed
                                 <a href="" class="hide-content__link">documentation</a> and <a href=""
                                     class="hide-content__link">video tutorials</a>.
@@ -623,7 +612,7 @@
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
                                     <span>
-                                        Free, consistent, and stable updates to ensure compatibility with industry
+                                        Free, consistent, and stable updates to ensure compatibility width industry
                                         standards & trends.</span>
                                 </li>
                                 <li class="hide-content__item">
@@ -638,11 +627,11 @@
                                 </li>
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
-                                    <span>200+ video tutorials, with new videos, added regularly.</span>
+                                    <span>200+ video tutorials, width new videos, added regularly.</span>
                                 </li>
                                 <li class="hide-content__item">
                                     <i class="hide-content__icon fa-solid fa-check"></i>
-                                    <span>Avada works with popular 3rd party plugins like Yoast SEO, WooCommerce, The
+                                    <span>Avada works width popular 3rd party plugins like Yoast SEO, WooCommerce, The
                                         Events Calendar, HubSpot, WPML, and more.</span>
                                 </li>
                                 <li class="hide-content__item">
@@ -673,7 +662,7 @@
                 <div class="row">
                     <div class="col col-lg-6">
                         <div class="final-section__content">
-                            <h2 class="final-section__title">Build Successful Websites With Avada</h2>
+                            <h2 class="final-section__title">Build Successful Websites Width Avada</h2>
                             <p class="final-section__text">
                                 Whether you are a beginner, marketer, or professional,
                                 Avada has the tools & resources you can rely on to succeed.
@@ -721,106 +710,105 @@
             </div>
         </footer>
 
-        <!-- Fixed btn -->
-        <div class="prebuilts__btn fixed-btn">
-            <div class="fixed-btn__link">
-                <div class="fixed-btn__svg">
-                    <svg class="fss-before" width="32" height="32" viewBox="0 0 32 32" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M26 5.99994H6C5.44772 5.99994 5 6.44765 5 6.99994C5 7.55222 5.44772 7.99994 6 7.99994H26C26.5523 7.99994 27 7.55222 27 6.99994C27 6.44765 26.5523 5.99994 26 5.99994Z">
-                        </path>
-                        <path
-                            d="M24 2.99994H8C7.44772 2.99994 7 3.44765 7 3.99994C7 4.55222 7.44772 4.99994 8 4.99994H24C24.5523 4.99994 25 4.55222 25 3.99994C25 3.44765 24.5523 2.99994 24 2.99994Z">
-                        </path>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M3 12.9999C3 10.7908 4.79086 8.99994 7 8.99994H25C27.2091 8.99994 29 10.7908 29 12.9999V24.9999C29 27.2091 27.2091 28.9999 25 28.9999H7C4.79086 28.9999 3 27.2091 3 24.9999V12.9999ZM11.2142 23.9962C11.0575 23.9962 10.9524 23.8414 11.0218 23.7026L15.8007 14.1131C15.8761 13.9623 16.0883 13.9623 16.1637 14.1131L16.5247 14.8371C18.9529 19.7192 15.6459 24.0041 11.2142 23.9962ZM18.3797 19.2906C18.4531 19.1399 18.6674 19.1399 18.7428 19.2906L20.9785 23.7065C21.0459 23.8414 20.9467 24.0001 20.796 24.0001H18.8578C17.4335 24.0001 16.6896 22.6194 17.2807 21.4371L18.3797 19.2906Z">
-                        </path>
-                    </svg>
-                </div>
-                <span class="fixed-btn__text">Prebuilts</span>
+        
+    </div>
+    <!-- Fixed btn
+    <div class="prebuilts__btn fixed-btn">
+        <div class="fixed-btn__link">
+            <div class="fixed-btn__svg">
+                <svg class="fss-before" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26 5.99994H6C5.44772 5.99994 5 6.44765 5 6.99994C5 7.55222 5.44772 7.99994 6 7.99994H26C26.5523 7.99994 27 7.55222 27 6.99994C27 6.44765 26.5523 5.99994 26 5.99994Z">
+                    </path>
+                    <path
+                        d="M24 2.99994H8C7.44772 2.99994 7 3.44765 7 3.99994C7 4.55222 7.44772 4.99994 8 4.99994H24C24.5523 4.99994 25 4.55222 25 3.99994C25 3.44765 24.5523 2.99994 24 2.99994Z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3 12.9999C3 10.7908 4.79086 8.99994 7 8.99994H25C27.2091 8.99994 29 10.7908 29 12.9999V24.9999C29 27.2091 27.2091 28.9999 25 28.9999H7C4.79086 28.9999 3 27.2091 3 24.9999V12.9999ZM11.2142 23.9962C11.0575 23.9962 10.9524 23.8414 11.0218 23.7026L15.8007 14.1131C15.8761 13.9623 16.0883 13.9623 16.1637 14.1131L16.5247 14.8371C18.9529 19.7192 15.6459 24.0041 11.2142 23.9962ZM18.3797 19.2906C18.4531 19.1399 18.6674 19.1399 18.7428 19.2906L20.9785 23.7065C21.0459 23.8414 20.9467 24.0001 20.796 24.0001H18.8578C17.4335 24.0001 16.6896 22.6194 17.2807 21.4371L18.3797 19.2906Z">
+                    </path>
+                </svg>
             </div>
-        </div>
-
-        <div class="buynow__btn fixed-btn">
-            <a href="" class="fixed-btn__link">
-                <div class="fixed-btn__svg">
-                    <svg class="fss-before" width="32" height="32" viewBox="0 0 32 32" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M4 5C3.44771 5 3 5.44772 3 6C3 6.55229 3.44771 7 4 7H5.87206C6.12652 7 6.26222 7.00066 6.36001 7.00804L6.36992 7.00882L6.37239 7.01846C6.39629 7.11357 6.42003 7.24719 6.46332 7.49793L7.88104 15.71C7.96479 16.1952 8.03734 16.6155 8.12495 16.9588C8.21776 17.3224 8.34534 17.6775 8.57914 18.0049C8.92972 18.496 9.4202 18.8699 9.98655 19.0778C10.3642 19.2165 10.7405 19.2454 11.1157 19.2386C11.4699 19.2322 11.8944 19.1908 12.3844 19.143L23.2436 18.0843L23.2436 18.0843C23.7231 18.0376 24.139 17.9971 24.4812 17.9365C24.8442 17.8722 25.2013 17.7736 25.5405 17.5706C26.05 17.2657 26.4576 16.8165 26.7116 16.2798C26.8807 15.9225 26.9442 15.5575 26.9729 15.1901C27 14.8436 27 14.4257 27 13.944V13.9439V13.3925V13.3924C27 12.8796 27 12.4365 26.9705 12.0707C26.9393 11.684 26.8704 11.2996 26.6851 10.9276C26.408 10.3715 25.965 9.91514 25.4174 9.62158C25.0512 9.42522 24.669 9.34492 24.2834 9.30221C23.9186 9.26181 23.4756 9.24861 22.963 9.23334L22.9252 9.23222L8.71918 8.8086L8.42934 7.12977L8.42933 7.12967C8.3928 6.91792 8.35663 6.7083 8.31208 6.531C8.26249 6.33369 8.18699 6.10751 8.03823 5.88578C7.82889 5.57374 7.53589 5.32699 7.19279 5.17379C6.94897 5.06492 6.71325 5.02899 6.51038 5.0137L4 5Z">
-                        </path>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M12.0487 22.5756C11.3665 22.5756 10.8023 23.1345 10.8023 23.8378C10.8023 24.5411 11.3665 25.1 12.0487 25.1C12.7308 25.1 13.295 24.5411 13.295 23.8378C13.295 23.1345 12.7308 22.5756 12.0487 22.5756ZM9.00232 23.8378C9.00232 22.1529 10.36 20.7756 12.0487 20.7756C13.7373 20.7756 15.095 22.1529 15.095 23.8378C15.095 25.5228 13.7373 26.9 12.0487 26.9C10.36 26.9 9.00232 25.5228 9.00232 23.8378Z">
-                        </path>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M22.244 22.5756C21.5619 22.5756 20.9976 23.1345 20.9976 23.8378C20.9976 24.5411 21.5619 25.1 22.244 25.1C22.9261 25.1 23.4903 24.5411 23.4903 23.8378C23.4903 23.1345 22.9261 22.5756 22.244 22.5756ZM19.1976 23.8378C19.1976 22.1529 20.5553 20.7756 22.244 20.7756C23.9326 20.7756 25.2903 22.1529 25.2903 23.8378C25.2903 25.5228 23.9326 26.9 22.244 26.9C20.5553 26.9 19.1976 25.5228 19.1976 23.8378Z">
-                        </path>
-                    </svg>
-                </div>
-                <span class="fixed-btn__text">Buy Now</span>
-            </a>
-        </div>
-
-        <div class="message">
-            <div class="message__content">
-                <div class="message__heading">
-                    <img src="https://f.hubspotusercontent00.net/hub/6656404/hubfs/avada-icon-green-livechat.png?width=108&height=108"
-                        alt="" class="message__img">
-                </div>
-
-                <button class="message__icon-close">
-                    <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <defs>
-                            <path
-                                d="M2.276.39L12 10.115 21.724.391c.486-.486 1.254-.519 1.777-.098l.108.098c.521.52.521 1.364 0 1.885L13.886 12l9.723 9.724c.521.52.521 1.365 0 1.885-.52.521-1.364.521-1.885 0L12 13.886l-9.724 9.723c-.486.486-1.254.519-1.777.098l-.108-.098c-.521-.52-.521-1.364 0-1.885L10.114 12 .391 2.276C-.13 1.756-.13.911.39.391.91-.13 1.755-.13 2.276.39z"
-                                id="close__a"></path>
-                        </defs>
-                        <use xlink:href="#close__a" fill-rule="evenodd"></use>
-                    </svg>
-                </button>
-                <p class="message__text">
-                    Hi there! Let me know if you have any presales questions about Avada. We are happy to help.
-                </p>
-            </div>
-            <button class="message-btn">
-                <div class="message-btn__svg">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
-                        height="30" viewBox="0 0 39 37" class="conversations-visitor-open-icon">
-                        <defs>
-                            <path id="conversations-visitor-open-icon-path-10.7357627558517936"
-                                d="M31.4824242 24.6256121L31.4824242 0.501369697 0.476266667 0.501369697 0.476266667 24.6256121z">
-                            </path>
-                        </defs>
-                        <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-                            <g transform="translate(-1432 -977) translate(1415.723 959.455)">
-                                <g transform="translate(17 17)">
-                                    <g transform="translate(6.333 .075)">
-                                        <path fill="#ffffff"
-                                            d="M30.594 4.773c-.314-1.943-1.486-3.113-3.374-3.38C27.174 1.382 22.576.5 15.36.5c-7.214 0-11.812.882-11.843.889-1.477.21-2.507.967-3.042 2.192a83.103 83.103 0 019.312-.503c6.994 0 11.647.804 12.33.93 3.079.462 5.22 2.598 5.738 5.728.224 1.02.932 4.606.932 8.887 0 2.292-.206 4.395-.428 6.002 1.22-.516 1.988-1.55 2.23-3.044.008-.037.893-3.814.893-8.415 0-4.6-.885-8.377-.89-8.394">
-                                        </path>
-                                    </g>
-                                    <g fill="#ffffff" transform="translate(0 5.832)">
-                                        <path
-                                            d="M31.354 4.473c-.314-1.944-1.487-3.114-3.374-3.382-.046-.01-4.644-.89-11.859-.89-7.214 0-11.813.88-11.843.888-1.903.27-3.075 1.44-3.384 3.363C.884 4.489 0 8.266 0 12.867c0 4.6.884 8.377.889 8.393.314 1.944 1.486 3.114 3.374 3.382.037.007 3.02.578 7.933.801l2.928 5.072a1.151 1.151 0 001.994 0l2.929-5.071c4.913-.224 7.893-.794 7.918-.8 1.902-.27 3.075-1.44 3.384-3.363.01-.037.893-3.814.893-8.414 0-4.601-.884-8.378-.888-8.394">
-                                        </path>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </svg>
-                </div>
-            </button>
+            <span class="fixed-btn__text">Prebuilts</span>
         </div>
     </div>
 
+    <div class="buynow__btn fixed-btn">
+        <a href="" class="fixed-btn__link">
+            <div class="fixed-btn__svg">
+                <svg class="fss-before" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M4 5C3.44771 5 3 5.44772 3 6C3 6.55229 3.44771 7 4 7H5.87206C6.12652 7 6.26222 7.00066 6.36001 7.00804L6.36992 7.00882L6.37239 7.01846C6.39629 7.11357 6.42003 7.24719 6.46332 7.49793L7.88104 15.71C7.96479 16.1952 8.03734 16.6155 8.12495 16.9588C8.21776 17.3224 8.34534 17.6775 8.57914 18.0049C8.92972 18.496 9.4202 18.8699 9.98655 19.0778C10.3642 19.2165 10.7405 19.2454 11.1157 19.2386C11.4699 19.2322 11.8944 19.1908 12.3844 19.143L23.2436 18.0843L23.2436 18.0843C23.7231 18.0376 24.139 17.9971 24.4812 17.9365C24.8442 17.8722 25.2013 17.7736 25.5405 17.5706C26.05 17.2657 26.4576 16.8165 26.7116 16.2798C26.8807 15.9225 26.9442 15.5575 26.9729 15.1901C27 14.8436 27 14.4257 27 13.944V13.9439V13.3925V13.3924C27 12.8796 27 12.4365 26.9705 12.0707C26.9393 11.684 26.8704 11.2996 26.6851 10.9276C26.408 10.3715 25.965 9.91514 25.4174 9.62158C25.0512 9.42522 24.669 9.34492 24.2834 9.30221C23.9186 9.26181 23.4756 9.24861 22.963 9.23334L22.9252 9.23222L8.71918 8.8086L8.42934 7.12977L8.42933 7.12967C8.3928 6.91792 8.35663 6.7083 8.31208 6.531C8.26249 6.33369 8.18699 6.10751 8.03823 5.88578C7.82889 5.57374 7.53589 5.32699 7.19279 5.17379C6.94897 5.06492 6.71325 5.02899 6.51038 5.0137L4 5Z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12.0487 22.5756C11.3665 22.5756 10.8023 23.1345 10.8023 23.8378C10.8023 24.5411 11.3665 25.1 12.0487 25.1C12.7308 25.1 13.295 24.5411 13.295 23.8378C13.295 23.1345 12.7308 22.5756 12.0487 22.5756ZM9.00232 23.8378C9.00232 22.1529 10.36 20.7756 12.0487 20.7756C13.7373 20.7756 15.095 22.1529 15.095 23.8378C15.095 25.5228 13.7373 26.9 12.0487 26.9C10.36 26.9 9.00232 25.5228 9.00232 23.8378Z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M22.244 22.5756C21.5619 22.5756 20.9976 23.1345 20.9976 23.8378C20.9976 24.5411 21.5619 25.1 22.244 25.1C22.9261 25.1 23.4903 24.5411 23.4903 23.8378C23.4903 23.1345 22.9261 22.5756 22.244 22.5756ZM19.1976 23.8378C19.1976 22.1529 20.5553 20.7756 22.244 20.7756C23.9326 20.7756 25.2903 22.1529 25.2903 23.8378C25.2903 25.5228 23.9326 26.9 22.244 26.9C20.5553 26.9 19.1976 25.5228 19.1976 23.8378Z">
+                    </path>
+                </svg>
+            </div>
+            <span class="fixed-btn__text">Buy Now</span>
+        </a>
+    </div>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <div class="message">
+        <div class="message__content">
+            <div class="message__heading">
+                <img src="https://f.hubspotusercontent00.net/hub/6656404/hubfs/avada-icon-green-livechat.png?width=108&height=108"
+                    alt="" class="message__img">
+            </div>
+
+            <button class="message__icon-close">
+                <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <path
+                            d="M2.276.39L12 10.115 21.724.391c.486-.486 1.254-.519 1.777-.098l.108.098c.521.52.521 1.364 0 1.885L13.886 12l9.723 9.724c.521.52.521 1.365 0 1.885-.52.521-1.364.521-1.885 0L12 13.886l-9.724 9.723c-.486.486-1.254.519-1.777.098l-.108-.098c-.521-.52-.521-1.364 0-1.885L10.114 12 .391 2.276C-.13 1.756-.13.911.39.391.91-.13 1.755-.13 2.276.39z"
+                            id="close__a"></path>
+                    </defs>
+                    <use xlink:href="#close__a" fill-rule="evenodd"></use>
+                </svg>
+            </button>
+            <p class="message__text">
+                Hi there! Let me know if you have any presales questions about Avada. We are happy to help.
+            </p>
+        </div>
+        <button class="message-btn">
+            <div class="message-btn__svg">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
+                    height="30" viewBox="0 0 39 37" class="conversations-visitor-open-icon">
+                    <defs>
+                        <path id="conversations-visitor-open-icon-path-10.7357627558517936"
+                            d="M31.4824242 24.6256121L31.4824242 0.501369697 0.476266667 0.501369697 0.476266667 24.6256121z">
+                        </path>
+                    </defs>
+                    <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+                        <g transform="translate(-1432 -977) translate(1415.723 959.455)">
+                            <g transform="translate(17 17)">
+                                <g transform="translate(6.333 .075)">
+                                    <path fill="#ffffff"
+                                        d="M30.594 4.773c-.314-1.943-1.486-3.113-3.374-3.38C27.174 1.382 22.576.5 15.36.5c-7.214 0-11.812.882-11.843.889-1.477.21-2.507.967-3.042 2.192a83.103 83.103 0 019.312-.503c6.994 0 11.647.804 12.33.93 3.079.462 5.22 2.598 5.738 5.728.224 1.02.932 4.606.932 8.887 0 2.292-.206 4.395-.428 6.002 1.22-.516 1.988-1.55 2.23-3.044.008-.037.893-3.814.893-8.415 0-4.6-.885-8.377-.89-8.394">
+                                    </path>
+                                </g>
+                                <g fill="#ffffff" transform="translate(0 5.832)">
+                                    <path
+                                        d="M31.354 4.473c-.314-1.944-1.487-3.114-3.374-3.382-.046-.01-4.644-.89-11.859-.89-7.214 0-11.813.88-11.843.888-1.903.27-3.075 1.44-3.384 3.363C.884 4.489 0 8.266 0 12.867c0 4.6.884 8.377.889 8.393.314 1.944 1.486 3.114 3.374 3.382.037.007 3.02.578 7.933.801l2.928 5.072a1.151 1.151 0 001.994 0l2.929-5.071c4.913-.224 7.893-.794 7.918-.8 1.902-.27 3.075-1.44 3.384-3.363.01-.037.893-3.814.893-8.414 0-4.601-.884-8.378-.888-8.394">
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </button>
+    </div> -->
 
 
-    <script src="./js/script.js"></script>
 </body>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
 
 </html>
