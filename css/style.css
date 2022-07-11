@@ -248,7 +248,7 @@
 
 /* Hide content */
 .hide-content {
-    /* display: none; */
+    display: none;
 }
 
 .hide-content__link:hover {
