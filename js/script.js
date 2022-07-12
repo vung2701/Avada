@@ -1,8 +1,4 @@
 $(document).ready(function () {
-    $('.message__icon-close').click(function () {
-        $('.message__content').hide();
-    })
-
     $('.question-section__item').click(function () {
         if ($(this).hasClass('active')) {
             $(this).removeClass('active');
