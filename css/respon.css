@@ -1,1 +1,46 @@
- 
+ /* Big Screen > 1024px */
+ @media screen and (min-width: 1025px) {
+     .hide-on-pc {
+         display: none;
+     }
+ }
+
+ /* Medium and Small Screen from 641px to 1024px */
+ @media screen and (max-width: 1024px) {
+     .hide-on-mobile-tablet {
+         display: none;
+     }
+
+     .header__logo {
+         width: 80%;
+     }
+
+     .header__navbar {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .navbar__list {
+         flex-direction: column;
+     }
+
+     .navbar__item {
+         min-height: 68px;
+         font-size: 19px;
+     }
+
+     .nav-mobile__btn {
+         width: 20%;
+     }
+
+
+ }
+
+
+ /* Medium Screen from 641px to 1024px */
+ @media screen and (min-width: 641px) and (max-width: 1024px) {}
+
+ /* Small Screen  <= 640px */
+ @media screen and (max-width: 640px) {}
