@@ -30,27 +30,32 @@
                 </div>
 
                 <!-- Mobi Nav Icon btn -->
-                <div class="nav-mobile__btn hide-on-pc d-flex-right-center">
-                    <i class="nav-mobile__icon font-32  fa-solid fa-bars"></i>
+                <div class="header-mobile__btn hide-on-pc d-flex-right-center">
+                    <i class="header-mobile__bars-icon font-32 fa-solid fa-bars p-0-4"></i>
+                    <i class="header-mobile__close-icon font-32 fa-solid fa-xmark p-0-4"></i>
                 </div>
 
 
                 <nav class="header__navbar d-flex-center-center d-flex-1 hide-on-mobile-tablet">
                     <ul class="navbar__list d-flex-between-center font-18">
-                        <li class="navbar__item m-right-5">
+                        <li class="navbar__item">
                             <a href="" class="navbar__link border-ra-8 p-8-18">
-                                Features
+                                <span>Features</span>
                                 <i
-                                    class="navbar__icon fa-solid fa-angle-down font-12 p-left-8 hide-on-mobile-tablet"></i></a>
-
+                                    class="navbar__icon fa-solid fa-angle-down font-12 p-left-8 hide-on-mobile-tablet"></i>
+                                <button class="mobile-navbar__btn hide-on-pc">
+                                    <i class="mobile-navbar__icon fa-solid fa-angle-down font-18"></i>
+                                </button>
+                            </a>
                         </li>
-                        <li class="navbar__item m-right-5">
+
+                        <li class="navbar__item">
                             <a href="" class="navbar__link border-ra-8 p-8-18">Elements</a>
                         </li>
-                        <li class="navbar__item m-right-5">
+                        <li class="navbar__item">
                             <a href="" class="navbar__link border-ra-8 p-8-18">Prebuilt Wedsites</a>
                         </li>
-                        <li class="navbar__item m-right-5">
+                        <li class="navbar__item">
                             <a href="" class="navbar__link border-ra-8 p-8-18">Reviews</a>
                         </li>
                     </ul>
@@ -62,18 +67,14 @@
                         <span>What's New</span>
                     </a>
                 </div>
-
-
             </div>
 
         </header>
 
-
         <div id="main" class="width-100">
-            <div class="content inner">
-
-                <!-- Intro Section -->
-                <section class="intro-section d-flex-center m-bot-95 hide-on-mobile-tablet">
+            <!-- Intro Section -->
+            <section class="intro-section ">
+                <div class="inner d-flex-center m-bot-95 hide-on-mobile-tablet">
                     <div class="intro-section__content d-flex-col-between">
                         <h1 class="intro-section__title font-60 m-bot-20">
                             The Ultimate
@@ -113,20 +114,23 @@
                         <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/07/home-hero-20@2x.jpg" alt=""
                             class="width-100">
                     </div>
-                </section>
+                </div>
+            </section>
 
 
-                <!-- For Section -->
-                <section class="for-section d-flex-between m-bot-125">
+            <!-- For Section -->
+            <section class="for-section">
+                <div class="inner d-flex-between m-bot-125">
                     <div class="for-section__box">
-                        <a class="for-section__link for-section--yellow d-flex-col-between-center height-100">
+                        <a
+                            class="for-section__link for-section--yellow d-flex-col-between-center border-ra-5 height-100">
                             <div class="for-section__content d-flex-col-between-center d-flex-1 text-center">
                                 <p class="for-section__content-heading font-15 f-weight-700 m-bot-14">For Beginners</p>
                                 <h2 class="for-section__content-title font-32 m-bot-35">Lauch Your First
                                     Website
                                 </h2>
 
-                                <div class="for-section__content-picture d-flex-center d-flex-1 m-bot-40">
+                                <div class="for-section__content-picture d-flex-center-center d-flex-1 m-bot-40">
                                     <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-beginners@2x-200x231.jpg"
                                         alt="" class="for-section__content-img">
                                 </div>
@@ -141,13 +145,14 @@
                     </div>
 
                     <div class="for-section__box">
-                        <a class="for-section__link for-section--green d-flex-col-between-center height-100">
+                        <a
+                            class="for-section__link for-section--green d-flex-col-between-center border-ra-5 height-100">
                             <div class="for-section__content d-flex-col-between-center d-flex-1 text-center">
                                 <p class="for-section__content-heading font-15 f-weight-700 m-bot-14">For Marketers</p>
                                 <h2 class="for-section__content-title font-32 m-bot-35">Generate Leads And
                                     Conversions</h2>
 
-                                <div class="for-section__content-picture d-flex-center d-flex-1 m-bot-40">
+                                <div class="for-section__content-picture d-flex-center-center d-flex-1 m-bot-40">
                                     <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-marketers@2x-200x200.jpg"
                                         alt="" class="for-section__content-img">
                                 </div>
@@ -163,7 +168,7 @@
                     </div>
 
                     <div class="for-section__box">
-                        <a class="for-section__link for-section--blue d-flex-col-between-center height-100">
+                        <a class="for-section__link for-section--blue d-flex-col-between-center border-ra-5 height-100">
                             <div class="for-section__content d-flex-col-between-center d-flex-1 text-center">
                                 <p class="for-section__content-heading font-15 f-weight-700 m-bot-14">For Professionals
                                 </p>
@@ -171,13 +176,13 @@
                                     Level
                                 </h2>
 
-                                <div class="for-section__content-picture d-flex-center d-flex-1 m-bot-40">
+                                <div class="for-section__content-picture d-flex-center-center d-flex-1 m-bot-40">
                                     <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/for-pro-2@2x-400x382.jpg"
                                         alt="" class="for-section__content-img">
                                 </div>
 
                                 <div class="for-section__btns d-flex-center-center">
-                                    <div class="for-section__btn btn--blue">all-In-One</div>
+                                    <div class="for-section__btn btn--blue">All-In-One</div>
                                     <div class="for-section__btn btn--blue">Patcher</div>
                                     <div class="for-section__btn btn--blue">WCAG</div>
                                     <div class="for-section__btn btn--blue">Dynamic Data</div>
@@ -186,11 +191,12 @@
 
                         </a>
                     </div>
-                </section>
+                </div>
+            </section>
 
-
-                <!-- Design Section -->
-                <section class="design-section m-bot-95">
+            <!-- Design Section -->
+            <section class="design-section">
+                <div class="inner m-bot-95">
                     <!-- Design Title Section -->
                     <div class="title-box m-bot-80">
                         <img src="https://f.hubspotusercontent00.net/hub/6656404/hubfs/avada-icon-green-livechat.png?width=108&height=108"
@@ -202,7 +208,7 @@
                     </div>
 
                     <!-- design-sidebar Section -->
-                    <section class="design-content d-flex-between m-bot-95">
+                    <div class="design-content d-flex-between m-bot-95">
                         <nav class="design-sidebar">
                             <ul class="design-sidebar__list d-flex-col d-flex-1 m-bot-15">
                                 <li
@@ -251,12 +257,14 @@
                                     alt="" class="design__img ">
                             </a>
                         </div>
+                    </div>
+                </div>
+            </section>
 
-                    </section>
-                </section>
 
-                <!-- All in one section -->
-                <section class="all-in-one-section">
+            <!-- All in one section -->
+            <section class="all-in-one-section">
+                <div class="inner">
                     <!-- All-In-One Title Section -->
                     <div class="title-box m-bot-80">
                         <h2 class="title-box__title">All-In-One Website Builder</h2>
@@ -273,7 +281,8 @@
                                             alt="" class="all-in-one__img">
                                     </div>
 
-                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15">87 Prebuilt Websites
+                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15 text-center">87 Prebuilt
+                                        Websites
                                     </h3>
                                     <p class="all-in-one__text font-17 m-0-20 text-center">Prebuilt websites are
                                         designed to
@@ -289,7 +298,8 @@
                                             alt="" class="all-in-one__img">
                                     </div>
 
-                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15">120+ Design Elements
+                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15 text-center">120+ Design
+                                        Elements
                                     </h3>
                                     <p class="all-in-one__text font-17 m-0-20 text-center">
                                         Packed width options, they are highly flexible for any design
@@ -305,7 +315,8 @@
                                             alt="" class="all-in-one__img">
                                     </div>
 
-                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15">Built For Performance
+                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15 text-center">Built For
+                                        Performance
                                     </h3>
                                     <p class="all-in-one__text font-17 m-0-20 text-center">
                                         Experience total control of your website’s
@@ -321,7 +332,8 @@
                                             alt="" class="all-in-one__img">
                                     </div>
 
-                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15">Mobile Friendly</h3>
+                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15 text-center">Mobile
+                                        Friendly</h3>
                                     <p class="all-in-one__text font-17 m-0-20 text-center">
                                         Avada is 100% fluid & responsive across all device types,
                                         from mobile to desktop & tablets, width no compromise.
@@ -336,7 +348,8 @@
                                             alt="" class="all-in-one__img">
                                     </div>
 
-                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15">Dynamic Content</h3>
+                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15 text-center">Dynamic
+                                        Content</h3>
                                     <p class="all-in-one__text font-17 m-0-20 text-center">Build unique pages & post
                                         layouts
                                         for
@@ -353,7 +366,8 @@
                                             alt="" class="all-in-one__img">
                                     </div>
 
-                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15">Online Store Builder
+                                    <h3 class="all-in-one__title font-24 f-weight-700 m-bot-15 text-center">Online Store
+                                        Builder
                                     </h3>
                                     <p class="all-in-one__text font-17 m-0-20 text-center">Avada is integrated width
                                         WooCommerce,
@@ -367,98 +381,99 @@
                             <i class="btn-icon fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
-                </section>
+                </div>
+            </section>
 
 
-
-                <!-- Background Section -->
-                <section class="background-section">
-                    <!-- Background Title Section -->
-                    <div class="background-title full-screen">
-                        <div class="background-title__content inner d-flex-center-center">
-                            <!-- Title Section -->
-                            <section class="title-box width-60">
-                                <h2 class="title-box__title"> <span>815,665</span> Website Owners <br> Trust Avada
-                                </h2>
-                                <p class="title-box__text">The #1 selling Website Builder on Themeforest for 9+ years.
-                                </p>
-                            </section>
+            <!-- Background Title Section -->
+            <div class="background-title">
+                <div class="inner d-flex-center-center">
+                    <!-- Title Section -->
+                    <section class="title-box">
+                        <h2 class="title-box__title"><span>815,665</span> Website Owners <br> Trust Avada
+                        </h2>
+                        <p class="title-box__text">The #1 selling Website Builder on Themeforest for 9+ years.
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <!-- Background content -->
+            <section class="background-content">
+                <div class="inner d-flex-between m-bot-120">
+                    <div class="background-content__box d-flex-col-between-center">
+                        <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
+                            <div class="background-content__picture d-flex-center d-flex-1">
+                                <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/world-class-support.png"
+                                    alt="" class="background-content__img">
+                            </div>
+                            <h4 class="background-content__title font-21 f-weight-700">World-Class Support</h4>
+                            <p class="background-content__text font-17">We build long-term professional
+                                relationships
+                                width our
+                                customers that you can rely on & trust.
+                            </p>
                         </div>
                     </div>
 
-                    <!-- Background content -->
-                    <section class="background-content m-bot-120">
-                        <div class="background-content__row d-flex-between">
-                            <div class="background-content__box d-flex-col-between-center">
-                                <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
-                                    <div class="background-content__picture d-flex-center d-flex-1">
-                                        <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/world-class-support.png"
-                                            alt="" class="background-content__img">
-                                    </div>
-                                    <h4 class="background-content__title font-21 f-weight-700">World-Class Support</h4>
-                                    <p class="background-content__text font-17">We build long-term professional
-                                        relationships
-                                        width our
-                                        customers that you can rely on & trust.
-                                    </p>
-                                </div>
+                    <div class="background-content__box d-flex-col-between-center">
+                        <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
+                            <div class="background-content__picture d-flex-center d-flex-1">
+                                <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/documentation.png"
+                                    alt="" class="background-content__img">
                             </div>
 
-                            <div class="background-content__box d-flex-col-between-center">
-                                <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
-                                    <div class="background-content__picture d-flex-center d-flex-1">
-                                        <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/documentation.png"
-                                            alt="" class="background-content__img">
-                                    </div>
-
-                                    <h4 class="background-content__title font-21 f-weight-700">Documentation & Tutorials
-                                    </h4>
-                                    <p class="background-content__text font-17">Over 550 help files & 200 tutorial
-                                        videos
-                                        will
-                                        make
-                                        building websites width Avada even easier.</p>
-                                </div>
-                            </div>
-
-                            <div class="background-content__box d-flex-col-between-center">
-                                <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
-                                    <div class="background-content__picture d-flex-center d-flex-1">
-                                        <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/built-in-house-200x94.png"
-                                            alt="" class="background-content__img">
-                                    </div>
-                                    <h4 class="background-content__title font-21 f-weight-700">100% Built In-House</h4>
-                                    <p class="background-content__text font-17">Avada is not reliant on 3rd party tools
-                                        to
-                                        deliver a
-                                        reliable & stable website building experience.</p>
-                                </div>
-                            </div>
-
-                            <div class="background-content__box d-flex-col-between-center">
-                                <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
-                                    <div class="background-content__picture d-flex-center d-flex-1">
-                                        <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/free-updates-200x151.png"
-                                            alt="" class="background-content__img">
-                                    </div>
-                                    <h4 class="background-content__title font-21 f-weight-700">Free Lifetime Updates
-                                    </h4>
-                                    <p class="background-content__text font-17">Your website will receive free & regular
-                                        updates,
-                                        compatible width industry standards & trends, for life.</p>
-                                </div>
-                            </div>
+                            <h4 class="background-content__title font-21 f-weight-700">Documentation & Tutorials
+                            </h4>
+                            <p class="background-content__text font-17">Over 550 help files & 200 tutorial
+                                videos
+                                will
+                                make
+                                building websites width Avada even easier.</p>
                         </div>
-                    </section>
-                </section>
+                    </div>
 
-                <!-- Quote Section -->
-                <section class="quote-section full-screen d-flex-between m-bot-135">
-                    <div class="quote-section__picture"></div>
+                    <div class="background-content__box d-flex-col-between-center">
+                        <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
+                            <div class="background-content__picture d-flex-center d-flex-1">
+                                <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/built-in-house-200x94.png"
+                                    alt="" class="background-content__img">
+                            </div>
+                            <h4 class="background-content__title font-21 f-weight-700">100% Built In-House</h4>
+                            <p class="background-content__text font-17">Avada is not reliant on 3rd party tools
+                                to
+                                deliver a
+                                reliable & stable website building experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="background-content__box d-flex-col-between-center">
+                        <div class="background-content__content d-flex-col-between-center d-flex-1 text-center">
+                            <div class="background-content__picture d-flex-center d-flex-1">
+                                <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/free-updates-200x151.png"
+                                    alt="" class="background-content__img">
+                            </div>
+                            <h4 class="background-content__title font-21 f-weight-700">Free Lifetime Updates
+                            </h4>
+                            <p class="background-content__text font-17">Your website will receive free & regular
+                                updates,
+                                compatible width industry standards & trends, for life.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Quote Section -->
+            <section class="quote-section">
+                <div class="quote-section__row inner-3 d-flex-between m-bot-135">
+                    <div class="quote-section__picture">
+                        <img class="quote-section__img width-100"
+                            src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271613%27%20height%3D%271024%27%20viewBox%3D%270%200%201613%201024%27%3E%3Crect%20width%3D%271613%27%20height%3D%271024%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E">
+                    </div>
 
                     <div class="quote-section__content">
                         <div class="quote-section__content-box d-flex-col">
-                            <blockquote class="quote-section__quote font-29 m-bot-50">
+                            <blockquote class="quote-section__quote font-29 m-bot-50 width-100">
                                 “We choose to specialise in Avada because it is both functional and practical,
                                 and our clients simply love it! It has stood the test of time and continues to evolve
                                 – an excellent solution for our talented design team, who continue to push the
@@ -466,34 +481,36 @@
                             </blockquote>
 
                             <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/06/small-separator.png"
-                                alt="" class="separate__img m-bot-50">
+                                alt="" class="separate__img m-bot-50 width-100">
 
-                            <h4 class="quote-section__title font-21 f-weight-700 m-bot-10">
+                            <h4 class="quote-section__title font-21 f-weight-700 m-bot-10 d-flex width-100">
                                 <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/08/squarebird-logo.png"
-                                    alt="" class="quote-section__img m-right-15">
-                                Squarebird
+                                    alt="" class="quote-section__icon m-right-15">
+                                <span>Squarebird</span>
                             </h4>
 
-                            <a href="" class="quote-section__link m-bot-20">https://www.squarebird.co.uk</a>
+                            <a href="" class="quote-section__link font-17 m-bot-20">https://www.squarebird.co.uk</a>
                         </div>
                     </div>
+                </div>
+            </section>
 
-                </section>
-
-
-                <section class="question-section">
+            <!-- Question Section -->
+            <section class="question-section">
+                <div class="inner">
                     <!--Question Title Section -->
-                    <div class="title-box m-bot-40">
+                    <div class="title-box m-bot-40 width-70">
                         <h2 class="title-box__title">Frequently Asked Questions</h2>
                     </div>
 
                     <!-- Question Content -->
-                    <div class="question-content width-100 m-bot-135">
-                        <ul class="question-content__list d-flex-col-center">
+                    <div class="question-content m-bot-135 m-0-auto">
+                        <ul class="question-content__list d-flex-col-center-center">
 
-                            <li class="question-content__item width-70 p-20-0">
-                                <div class="question-content__heading d-flex-center">
-                                    <h4 class="question-content__question d-flex-1 font-24 f-weight-700">What Is
+                            <li class="question-content__item p-20-0">
+                                <div class="question-content__heading d-flex-between-center">
+                                    <h4 class="question-content__question d-flex-1 font-24 f-weight-700 m-right-38">What
+                                        Is
                                         Included
                                         Width
                                         My Purchase
@@ -510,45 +527,45 @@
                                     <ul class="hide-content__list">
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>6 months of free professional support.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>8 bundled premium plugins.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>87 prebuilt websites, width new sites released regularly.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>120+ Design and Layout Elements.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>550+ detailed help files, continually updated to ensure everything is
                                                 current.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>200+ video tutorials, width new videos, added regularly.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>Free, consistent, and stable updates to ensure compatibility width
                                                 industry
                                                 standards & trends.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>Avada works width popular 3rd party plugins like Yoast SEO,
                                                 WooCommerce,
                                                 The
@@ -558,10 +575,9 @@
                                 </div>
                             </li>
 
-                            <li class="question-content__item width-70 p-20-0">
-                                <div class="question-content__heading d-flex-center">
-                                    <h4
-                                        class="question-content__question  d-flex-1 font-24 f-weight-700 d-flex-1 font-24">
+                            <li class="question-content__item width-100 p-20-0">
+                                <div class="question-content__heading d-flex-between-center">
+                                    <h4 class="question-content__question d-flex-1 font-24 f-weight-700 m-right-38">
                                         Are
                                         There Any Recurring Fees?</h4>
                                     <div class="question-content__icon font-21 f-weight-300">+</div>
@@ -583,10 +599,9 @@
                                 </div>
                             </li>
 
-                            <li class="question-content__item width-70 p-20-0">
-                                <div class="question-content__heading d-flex-center">
-                                    <h4
-                                        class="question-content__question  d-flex-1 font-24 f-weight-700 d-flex-1 font-24">
+                            <li class="question-content__item width-100 p-20-0">
+                                <div class="question-content__heading d-flex-between-center">
+                                    <h4 class="question-content__question d-flex-1 font-24 f-weight-700 m-right-38">
                                         Where
                                         Can I Get Support?</h4>
                                     <div class="question-content__icon font-21 f-weight-300">+</div>
@@ -604,7 +619,7 @@
                                     <ul class="hide-content__list">
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-angle-right"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-angle-right"></i>
                                             <span>
                                                 To access support you will need to register a support account by
                                                 following
@@ -614,7 +629,7 @@
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-angle-right"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-angle-right"></i>
                                             <span>
                                                 Once your support account is set up, you can submit support tickets
                                                 <a href="" class="hide-content__link text-green-basic">here</a>.
@@ -622,7 +637,7 @@
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-angle-right"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-angle-right"></i>
                                             <span>
                                                 Learn how to navigate your support account Dashboard
                                                 <a href="" class="hide-content__link text-green-basic">here</a>.
@@ -630,7 +645,7 @@
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-angle-right"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-angle-right"></i>
                                             <span>
                                                 Check to see if you are eligible for
                                                 <a href="" class="hide-content__link text-green-basic">Grandfathered
@@ -639,7 +654,7 @@
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-angle-right"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-angle-right"></i>
                                             <span>
                                                 For a detailed overview of our support policy please go
                                                 <a href="" class="hide-content__link text-green-basic">here</a>.
@@ -649,10 +664,9 @@
                                 </div>
                             </li>
 
-                            <li class="question-content__item width-70 p-20-0">
-                                <div class="question-content__heading d-flex-center">
-                                    <h4
-                                        class="question-content__question  d-flex-1 font-24 f-weight-700 d-flex-1 font-24">
+                            <li class="question-content__item width-100 p-20-0">
+                                <div class="question-content__heading d-flex-between-center">
+                                    <h4 class="question-content__question d-flex-1 font-24 f-weight-700 m-right-38">
                                         Are
                                         The Prebuilt Websites Fully
                                         Customizable?</h4>
@@ -677,10 +691,9 @@
                                 </div>
                             </li>
 
-                            <li class="question-content__item width-70 p-20-0">
-                                <div class="question-content__heading d-flex-center">
-                                    <h4
-                                        class="question-content__question  d-flex-1 font-24 f-weight-700 d-flex-1 font-24">
+                            <li class="question-content__item width-100 p-20-0">
+                                <div class="question-content__heading d-flex-between-center">
+                                    <h4 class="question-content__question d-flex-1 font-24 f-weight-700 m-right-38">
                                         Why
                                         Should I Trust Avada?</h4>
                                     <div class="question-content__icon font-21 f-weight-300">+</div>
@@ -697,24 +710,24 @@
                                     <ul class="hide-content__list">
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>The #1 selling Website Builder on Themeforest for 9+ years and
                                                 counting.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>We love what we do and who we do it for. Your future is our
                                                 focus.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>Avada is 100% developed and maintained in-house.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>
                                                 Free, consistent, and stable updates to ensure compatibility width
                                                 industry
@@ -722,25 +735,25 @@
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>Avada has no dependence on 3rd parties to deliver a stable & seamless
                                                 website
                                                 building experience.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>550+ detailed help files, continually updated to ensure everything is
                                                 current.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>200+ video tutorials, width new videos, added regularly.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>Avada works width popular 3rd party plugins like Yoast SEO,
                                                 WooCommerce,
                                                 The
@@ -748,7 +761,7 @@
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>Years of evolving Avada by listening to our customer’s feedback is
                                                 what
                                                 helps
@@ -760,14 +773,14 @@
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>A vast, passionate community of Avada customers drives a
                                                 well-established
                                                 Facebook group and a community forum.</span>
                                         </li>
                                         <li class="hide-content__item d-flex-between p-5-0 font-16">
                                             <i
-                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 fa-solid fa-check"></i>
+                                                class="hide-content__icon text-green-basic p-0-4 m-right-10 f-weight-700 fa-solid fa-check"></i>
                                             <span>Join 815,697 passionate Avada customers and build your future.</span>
                                         </li>
                                     </ul>
@@ -775,11 +788,14 @@
                             </li>
                         </ul>
                     </div>
-                </section>
+
+                </div>
+            </section>
 
 
-                <!-- Final Section -->
-                <section class="final-section full-screen d-flex-between">
+            <!-- Final Section -->
+            <section class="final-section">
+                <div class="final-section__row inner-2 d-flex-between-center border-ra-5">
                     <div class="final-section__content-box">
                         <div class="final-section__content d-flex">
                             <h2 class="final-section__title font-48 m-bot-20 f-weight-700">Build Successful Websites
@@ -797,45 +813,43 @@
                         </div>
                     </div>
 
-                    <div class="final-section__picture d-flex-center p-100-0 ">
+                    <div class="final-section__picture d-flex-center p-100-0">
                         <img src="https://avada.theme-fusion.com/wp-content/uploads/2021/07/footer-cta-600x369.png"
                             alt="" class="final-section__img">
                     </div>
-                </section>
-            </div>
-
-            <footer class="full-screen background-basic text-white">
-                <div class="footer__content d-flex-col-between-center inner">
-                    <img src="https://f.hubspotusercontent00.net/hub/6656404/hubfs/avada-icon-green-livechat.png?width=108&height=108"
-                        alt="" class="footer__logo m-bot-15">
-                    <p class="footer__text font-17 m-17-0">The Avada Website Builder is brought to you by <a href=""
-                            class="text-green-basic">ThemeFusion</a>.</p>
-                    <p class="footer__copyright font-12">© Copyright 2012 – 2022 | Avada Website Builder by ThemeFusion
-                        |
-                        All rights
-                        reserved | Powered by WordPress</p>
-
-                    <div class="footer-socials d-flex-center-center">
-                        <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
-                            <i class="footer-socials__icon font-16 text-white fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
-                            <i class="footer-socials__icon font-16 text-white fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
-                            <i class="footer-socials__icon font-16 text-white fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
-                            <i class="footer-socials__icon font-16 text-white fa-brands fa-youtube"></i>
-                        </a>
-                    </div>
                 </div>
-            </footer>
-
+            </section>
         </div>
 
+        <footer>
+            <div class="footer__content d-flex-col-between-center inner text-white text-center">
+                <img src="https://f.hubspotusercontent00.net/hub/6656404/hubfs/avada-icon-green-livechat.png?width=108&height=108"
+                    alt="" class="footer__logo m-bot-15">
+                <p class="footer__text font-17 m-17-0">The Avada Website Builder is brought to you by <a href=""
+                        class="text-green-basic">ThemeFusion</a>.</p>
+                <p class="footer__copyright font-12">© Copyright 2012 – 2022 | Avada Website Builder by ThemeFusion
+                    |
+                    All rights
+                    reserved | Powered by WordPress</p>
 
+                <div class="footer-socials d-flex-center-center">
+                    <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
+                        <i class="footer-socials__icon font-16 text-white fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
+                        <i class="footer-socials__icon font-16 text-white fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
+                        <i class="footer-socials__icon font-16 text-white fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" class="footer-socials__link d-flex-center-center border-ra-50percent m-5">
+                        <i class="footer-socials__icon font-16 text-white fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </div>
+
 </body>
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
