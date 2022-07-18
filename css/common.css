@@ -56,7 +56,6 @@ a,
 a:hover,
 a:active {
     text-decoration: none;
-    color: var(--basic-color);
 }
 
 ul {
@@ -78,19 +77,19 @@ p {
 .inner {
     width: 100%;
     max-width: 1331.2px;
-    margin: 0 auto;
+    margin: inherit auto;
     padding: 0 30px;
 }
 
 .inner-2 {
     width: 100%;
     max-width: 1331.2px;
-    margin: 0 auto;
+    margin: inherit auto;
 }
 
 .inner-3 {
     width: 100%;
-    margin: 0 auto;
+    margin: inherit auto;
 }
 
 /* Text align */
@@ -356,6 +355,10 @@ p {
     margin-bottom: 95px;
 }
 
+.m-bot-105 {
+    margin-bottom: 105px;
+}
+
 .m-bot-115 {
     margin-bottom: 115px;
 }
@@ -369,7 +372,7 @@ p {
 }
 
 .m-bot-135 {
-    margin-bottom: 155px;
+    margin-bottom: 135px;
 }
 
 /* flex */
@@ -558,7 +561,8 @@ p {
     flex-direction: column;
     align-items: center;
     color: var(--basic-color);
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-box__img {
@@ -581,7 +585,9 @@ p {
 
 /* Background Title  Section*/
 .background-title {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 110px;
+    background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://avada.theme-fusion.com/wp-content/uploads/2021/07/shape-bg-9.svg);

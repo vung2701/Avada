@@ -23,6 +23,10 @@
          width: 80%;
      }
 
+     .header-mobile__subnav {
+         display: none;
+     }
+
      .header__navbar {
          display: none;
          width: 100%;
@@ -33,6 +37,11 @@
          background-color: var(--white-color);
          z-index: 1;
          margin: 0;
+         max-height: max-content;
+     }
+
+     .header-mobile__icon {
+         transform: rotateX(360deg);
      }
 
      .navbar__list {
@@ -65,10 +74,6 @@
          width: 20%;
      }
 
-     .header-mobile__close-icon {
-         display: none;
-     }
-
      .mobile-navbar__btn {
          margin-left: auto;
          position: absolute;
@@ -79,6 +84,15 @@
 
      .mobile-navbar__btn {
          padding: 0 38px;
+     }
+
+     /* Background Section */
+     .background-title .title-box {
+         margin-bottom: 50px;
+     }
+
+     .background-content__row {
+         margin-bottom: 60px;
      }
 
      /* Quote section  */
@@ -163,6 +177,10 @@
          font-size: 26px;
      }
 
+     .for-section__row {
+         margin-bottom: 80px;
+     }
+
      .for-section__box {
          width: calc(33.3333% - 40px/3);
      }
@@ -172,6 +190,14 @@
      }
 
      /* All in one */
+     .all-in-one {
+         margin-bottom: 80px;
+     }
+
+     .all-in-one__row {
+         margin-bottom: 0;
+     }
+
      .all-in-one__box {
          width: calc(50% - 40px);
          margin-bottom: 60px;
@@ -183,9 +209,10 @@
 
 
      /* Background Section */
+
      .background-content__box {
          width: calc(50% - 3.84%);
-         margin-top: 60px;
+         margin-bottom: 60px;
      }
 
      /* Question */
@@ -194,7 +221,7 @@
      }
  }
 
- /* Small Screen  <= 640px */
+ /* Mobile Screen  <= 640px */
  @media screen and (max-width: 640px) {
 
      /* Title Box */
@@ -210,6 +237,11 @@
      .for-section__content-title {
          font-size: 26px;
      }
+
+     .for-section__row {
+         margin-bottom: 0;
+     }
+
 
      .for-section__box {
          width: 100%;
@@ -235,7 +267,7 @@
      /* Background Section */
      .background-content__box {
          width: 100%;
-         margin-top: 60px;
+         margin-bottom: 60px;
      }
 
      .question-content {

@@ -7,6 +7,7 @@
 .header__content {
     padding-top: 36px;
     padding-bottom: 36px;
+    transition: rolate;
 }
 
 .header__logo {
@@ -152,6 +153,11 @@
 
 /* All-in-one Section */
 
+.all-in-one-section .title-box {
+    margin-bottom: 40px;
+}
+
+
 .all-in-one__box {
     width: calc(33.3333% - 160px/3);
 }
@@ -241,7 +247,7 @@
 }
 
 .hide-content__link:hover {
-    color: var(--green-basic-colors);
+    color: var(--green-basic-color);
 }
 
 /* Final Section */
@@ -298,6 +304,7 @@ footer {
     text-decoration: underline;
 }
 
+
 .footer__copyright {
     margin: -8px 0 42px;
     line-height: 24px;
@@ -314,6 +321,7 @@ footer {
     line-height: 50px;
 }
 
+.footer__text a :hover,
 .footer-socials__link:hover {
-    background-color: var(--green-basic-color);
+    color: var(--green-basic-color);
 }
