@@ -17,14 +17,16 @@ $(document).ready(function () {
     })
 
     // Mobile navbar button
-    $('.header-mobile__icon').click(function () {
-        $(this).toggleClass('fa-bars');
-        $(this).toggleClass('fa-xmark');
-        if ($(this).hasClass('fa-xmark')) {
-            $('.header__navbar').fadeIn(300);
-        } else {
-            $('.header__navbar').fadeOut(300);
-        }
+    $('.header-mobile__bars-icon').click(function () {
+        $(this).hide();
+        $('.header-mobile__close-icon').show();
+        $('.header__navbar').fadeIn(400);
+    })
+
+    $('.header-mobile__close-icon').click(function () {
+        $(this).hide();
+        $('.header-mobile__bars-icon').show();
+        $('.header__navbar').fadeOut(400);
     })
 
     // Header Mobile Subnav
@@ -32,8 +34,12 @@ $(document).ready(function () {
         $(this).toggleClass('active');
         if ($(this).hasClass('active')) {
             $('.header-mobile__subnav').slideDown(300);
+            $('.mobile-navbar__icon').removeClass('fa-angle-down');
+            $('.mobile-navbar__icon').addClass('fa-angle-up');
         } else {
             $('.header-mobile__subnav').slideUp(300);
+            $('.mobile-navbar__icon').removeClass('fa-angle-up');
+            $('.mobile-navbar__icon').addClass('fa-angle-down');
         }
     })
 });

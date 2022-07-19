@@ -40,8 +40,13 @@
          max-height: max-content;
      }
 
-     .header-mobile__icon {
-         transform: rotateX(360deg);
+     .header-mobile__bars-icon {
+         animation: spinner 200ms ease;
+     }
+
+     .header-mobile__close-icon {
+         display: none;
+         animation: spinner 200ms ease;
      }
 
      .navbar__list {

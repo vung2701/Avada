@@ -73,23 +73,35 @@ p {
     line-height: 1.7;
 }
 
-/* Block */
+/* Inner */
 .inner {
     width: 100%;
     max-width: 1331.2px;
-    margin: inherit auto;
+    margin: 0 auto;
     padding: 0 30px;
 }
 
 .inner-2 {
     width: 100%;
     max-width: 1331.2px;
-    margin: inherit auto;
+    margin: 0 auto;
 }
 
 .inner-3 {
     width: 100%;
-    margin: inherit auto;
+    margin: 0 auto;
+}
+
+/* animation */
+@keyframes spinner {
+    from {
+        font-size: 28px;
+    }
+
+    to {
+        font-size: 30px;
+        transform: rotate(360deg);
+    }
 }
 
 /* Text align */
@@ -157,6 +169,10 @@ p {
 
 .font-29 {
     font-size: 29px;
+}
+
+.font-30 {
+    font-size: 30px;
 }
 
 .font-32 {
