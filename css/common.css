@@ -104,6 +104,15 @@ p {
     }
 }
 
+/* display */
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 /* Text align */
 .text-center {
     text-align: center;

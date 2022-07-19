@@ -16,7 +16,10 @@ $(document).ready(function () {
         }
     })
 
-    // Mobile navbar button
+})
+
+// Mobile navbar button
+$(document).ready(function () {
     $('.header-mobile__bars-icon').click(function () {
         $(this).hide();
         $('.header-mobile__close-icon').show();
@@ -28,8 +31,10 @@ $(document).ready(function () {
         $('.header-mobile__bars-icon').show();
         $('.header__navbar').fadeOut(400);
     })
+})
 
-    // Header Mobile Subnav
+// Mobile Navbar Subnav
+$(document).ready(function () {
     $('.mobile-navbar__btn').click(function () {
         $(this).toggleClass('active');
         if ($(this).hasClass('active')) {
@@ -42,4 +47,29 @@ $(document).ready(function () {
             $('.mobile-navbar__icon').addClass('fa-angle-down');
         }
     })
-});
+})
+
+
+// Sidebar item 
+$(document).ready(function () {
+    $('.design-sidebar__item').click(function () {
+        $(this).addClass('active');
+        $(this).siblings().removeClass('active');
+
+        // Mobile Img
+        $(this).children('.design__picture-box--mobile').fadeIn(300);
+        $(this).siblings().children('.design__picture-box--mobile').fadeOut(300);
+
+        // $('.active .design-sidebar__link').scrollIntoView(true);
+    })
+})
+
+$(document).ready(showImage(event));
+
+function showImage(event) {
+    if (event) {
+        $('.design__picture-box--' + `${event}`).removeClass('hide');
+        $('.design__picture-box--' + `${event}`).siblings().addClass('hide');
+    }
+}
+

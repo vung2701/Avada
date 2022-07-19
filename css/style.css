@@ -135,13 +135,13 @@
     display: block;
 }
 
-.design-sidebar__item:hover,
-.design-sidebar__item--active {
+
+.design-sidebar__link:hover,
+.active .design-sidebar__link {
     background-color: #f4f5f7;
-    color: var(--text-color);
 }
 
-.design__piture {
+.design__ picture {
     min-height: 419px;
 }
 
@@ -149,8 +149,8 @@
 .design__img {
     max-width: 100%;
     height: auto;
-    display: none;
 }
+
 
 /* All-in-one Section */
 
