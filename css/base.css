@@ -1,0 +1,74 @@
+:root {
+    --basic-color: #282828;
+    --white-color: #fff;
+    --black-color: #000;
+    --sub-basic-color: #262626;
+    --green-basic-color: #65bd7d;
+}
+
+/* Set up */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+html {
+    font-family: Roboto;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    text-rendering: optimizeLegibility;
+    letter-spacing: 1.2;
+
+}
+
+/* Tag */
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+p {
+    line-height: 1.7;
+}

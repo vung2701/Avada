@@ -1,0 +1,98 @@
+/* css public */
+.btn {
+    display: inline-block;
+    padding: 20px 31px;
+    border-radius: 5px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.btn-icon {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.btn:hover {
+    color: var(--white-color);
+}
+
+.btn--basic {
+    background-color: var(--basic-color);
+    color: var(--white-color);
+}
+
+.btn--basic-green {
+    background-color: var(--green-basic-color);
+    color: var(--white-color);
+}
+
+.btn--basic-green:hover {
+    background-color: #54b66e;
+}
+
+/* display */
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* Inner */
+.inner {
+    width: 100%;
+    max-width: 1331.2px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.inner-2 {
+    width: 100%;
+    max-width: 1331.2px;
+    margin: 0 auto;
+}
+
+.inner-3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Title Section */
+.main-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--basic-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title__img {
+    margin: 0 auto;
+    width: 75px;
+    margin-bottom: 15px;
+}
+
+.main-title__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.main-title__text {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+/* Background Title  Section*/
+.background-title {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 110px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/shape-bg-9.svg);
+}

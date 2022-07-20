@@ -1,22 +1,18 @@
-$(document).ready(function () {
+// Load Page
+// $(document).ready(function () {
+//     console.log($('#app').children().offset().top);
+// })
 
-    // Question hide content 
-    $('.question-content__item').click(function () {
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active');
-            $(this).find('.hide-content').hide(300);
-            $(this).find('.question-content__icon').text('+');
-        } else {
-            $(this).addClass('active');
-            $(this).find('.hide-content').show(300);
-            $(this).siblings().removeClass('active');
-            $(this).siblings().find('.question-content__icon').text('+');
-            $(this).siblings().find('.hide-content').hide(300);
-            $(this).find('.question-content__icon').text('-');
-        }
-    })
+// window.onscroll = function () {
+//     // var currentHeight = $('#app').find('*').Page
+//     // if(window.scrollY + window.innerHeight > $){
 
-})
+//     // }
+
+//     // console.log($('#app').children().offset().top);
+// }
+
+// function inViewport
 
 // Mobile navbar button
 $(document).ready(function () {
@@ -57,15 +53,15 @@ $(document).ready(function () {
         $(this).siblings().removeClass('active');
 
         // Mobile Img
-        $(this).children('.design__picture-box--mobile').fadeIn(300);
-        $(this).siblings().children('.design__picture-box--mobile').fadeOut(300);
+        $(this).children('.design__picture-box--mobile').removeClass('hide');
+        $(this).siblings().children('.design__picture-box--mobile').addClass('hide');
 
-        // $('.active .design-sidebar__link').scrollIntoView(true);
+        // $('.active').scrollIntoView(true);
     })
 })
 
+// Sidebar Img
 $(document).ready(showImage(event));
-
 function showImage(event) {
     if (event) {
         $('.design__picture-box--' + `${event}`).removeClass('hide');
@@ -73,3 +69,21 @@ function showImage(event) {
     }
 }
 
+// Question hide content 
+$(document).ready(function () {
+    $('.question-content__item').click(function () {
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $(this).find('.hide-content').hide(300);
+            $(this).find('.question-content__icon').text('+');
+        } else {
+            $(this).addClass('active');
+            $(this).find('.hide-content').show(300);
+            $(this).siblings().removeClass('active');
+            $(this).siblings().find('.question-content__icon').text('+');
+            $(this).siblings().find('.hide-content').hide(300);
+            $(this).find('.question-content__icon').text('-');
+        }
+    })
+
+})
