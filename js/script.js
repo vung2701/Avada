@@ -12,7 +12,6 @@
 //     // console.log($('#app').children().offset().top);
 // }
 
-// function inViewport
 
 // Mobile navbar button
 $(document).ready(function () {
@@ -56,7 +55,7 @@ $(document).ready(function () {
         $(this).children('.design__picture-box--mobile').removeClass('hide');
         $(this).siblings().children('.design__picture-box--mobile').addClass('hide');
 
-        // $('.active').scrollIntoView(true);
+        $('.active').scrollIntoView(true);
     })
 })
 
@@ -87,3 +86,24 @@ $(document).ready(function () {
     })
 
 })
+
+
+// Scroll to Top
+$(document).ready(function () {
+    window.onscroll = function () {
+        scrollFunction();
+    }
+})
+
+function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        $('.scrollTopBtn').css('display', 'block');
+    } else {
+        $('.scrollTopBtn').css('display', 'none');
+    }
+}
+
+function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
