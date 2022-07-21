@@ -1,16 +1,24 @@
-// Load Page
-// $(document).ready(function () {
-//     console.log($('#app').children().offset().top);
-// })
+// Reveal on load page
+$(document).ready(function () {
+    window.addEventListener("scroll", reveal);
 
-// window.onscroll = function () {
-//     // var currentHeight = $('#app').find('*').Page
-//     // if(window.scrollY + window.innerHeight > $){
+    // To check the scroll position on page load
+    reveal();
+})
 
-//     // }
-
-//     // console.log($('#app').children().offset().top);
-// }
+function reveal() {
+    var reveals = $('.reveal');
+    for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 100;
+        if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+        } else {
+            reveals[i].classList.remove("active");
+        }
+    }
+}
 
 
 // Mobile navbar button
