@@ -1,35 +1,3 @@
-/* css public */
-.btn {
-    display: inline-block;
-    padding: 20px 31px;
-    border-radius: 5px;
-    font-weight: 600;
-    line-height: 1;
-}
-
-.btn-icon {
-    font-size: 16px;
-    margin-left: 12px;
-}
-
-.btn:hover {
-    color: var(--white-color);
-}
-
-.btn--basic {
-    background-color: var(--basic-color);
-    color: var(--white-color);
-}
-
-.btn--basic-green {
-    background-color: var(--green-basic-color);
-    color: var(--white-color);
-}
-
-.btn--basic-green:hover {
-    background-color: #54b66e;
-}
-
 /* display */
 .hide {
     display: none;
@@ -94,7 +62,51 @@
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../img/shape-bg-9.svg);
+    background-image: url(../vendors/img/shape-bg-9.svg);
+}
+
+/* Btn */
+.btn {
+    display: inline-block;
+    padding: 20px 31px;
+    border-radius: 5px;
+    line-height: 1;
+}
+
+.btn__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.btn-icon-right {
+    font-size: 18px;
+    margin-left: 0.7em;
+    vertical-align: middle;
+}
+
+.btn-icon-left {
+    font-size: 14px;
+    margin-right: 0.7em;
+}
+
+.btn:hover {
+    color: var(--white-color);
+}
+
+.btn--basic {
+    background-color: var(--basic-color);
+}
+
+.btn--basic-green {
+    background-color: var(--green-basic-color);
+}
+
+.btn--basic-green:hover {
+    background-color: #54b66e;
 }
 
 /* Scroll to Top */
@@ -119,4 +131,18 @@
 .scrollTopBtn i {
     font-size: 26px;
     color: var(--white-color);
+}
+
+/* Change Title */
+.change-word__block {
+    display: flex;
+    max-width: fit-content;
+}
+
+.change-word {
+    border-right: 2px solid var(--basic-color);
+    padding-right: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fadeInWord 3s infinite alternate;
 }

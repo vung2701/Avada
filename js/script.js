@@ -115,3 +115,20 @@ function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
+// Change word
+$(document).ready(function () {
+    var words = [
+        "WordPress",
+        "Online Store",
+        "Creative",
+        "Portfolio"
+    ];
+    var i = 0;
+    setInterval(function () {
+        $('.change-word').fadeOut(function () {
+            $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+        });
+    }, 7100)
+})

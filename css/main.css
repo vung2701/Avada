@@ -7,7 +7,6 @@
 .header__content {
     padding-top: 36px;
     padding-bottom: 36px;
-    transition: rolate;
 }
 
 .logo {
@@ -16,10 +15,10 @@
 
 .logo-img {
     max-width: 165px;
+    width: 100%;
 }
 
 .header__navbar {
-    margin: 0 3.2%;
     width: 60%;
     min-height: 48px;
 }
@@ -59,8 +58,6 @@
 
 
 /* For Section */
-
-
 .for-section__box {
     width: calc(33.3333% - 50px/3);
 }
@@ -131,9 +128,14 @@
 
 .design-sidebar__link {
     padding: 19px 70px 19px 30px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
+.design-sidebar__icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
 
 .design-sidebar__link:hover,
 .active .design-sidebar__link {
@@ -156,7 +158,6 @@
 
 
 /* All-in-one Section */
-
 .all-in-one-section .main-title {
     margin-bottom: 40px;
 }
@@ -202,7 +203,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../img/testimonial.webp);
+    background-image: url(../vendors/img/testimonial.webp);
 }
 
 .quote-section__content {
