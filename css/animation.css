@@ -1,0 +1,32 @@
+/* keyframe */
+@keyframes spinner {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 30px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInWord {
+    0% {
+        width: 0;
+        padding: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
