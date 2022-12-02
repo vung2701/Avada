@@ -108,42 +108,6 @@
 }
 
 
-[class*=" awb-icon-"],
-[class^=awb-icon-] {
-    font-family: awb-icons !important;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-.awb-icon-angle-up:before {
-    content: "\f106"
-}
-
-.awb-icon-angle-down:before {
-    content: "\f107"
-}
-
-.awb-icon-facebook:before {
-    content: "\e604"
-}
-
-.awb-icon-twitter:before {
-    content: "\e605"
-}
-
-.awb-icon-instagram:before {
-    content: "\ea92"
-}
-
-.awb-icon-youtube:before {
-    content: "\e622"
-}
-
 html {
     font-family: Roboto;
     color: var(--text-color);

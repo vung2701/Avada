@@ -73,15 +73,6 @@
     line-height: 1;
 }
 
-.btn__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--white-color);
-    font-size: 19px;
-    font-weight: 600;
-}
-
 .btn-icon-right {
     font-size: 18px;
     margin-left: 0.7em;
@@ -99,10 +90,12 @@
 
 .btn--basic {
     background-color: var(--basic-color);
+    color: var(--white-color);
 }
 
 .btn--basic-green {
     background-color: var(--green-basic-color);
+    color: var(--white-color);
 }
 
 .btn--basic-green:hover {
